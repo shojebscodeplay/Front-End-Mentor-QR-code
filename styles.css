@@ -1,0 +1,61 @@
+/* General Reset (optional but helpful for consistent styling) */
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #D6E1F0; /* or any color you prefer */
+
+    
+}
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 360px;
+    width: 100%;
+  }
+  
+/* Ensure the card container has rounded corners */
+.card {
+    border-radius: 10px; /* Match this with the image for consistent styling */
+    overflow: hidden; /* This ensures that rounded corners are visible */
+    background-color: #ffffff; /* Optional: for visual contrast */
+  }
+  
+  /* Style for the image within the card */
+  .card img {
+    width: 100%;
+    display: block;
+    border-radius: 40px; /* Matches card's border radius */
+    padding: 10px; /* Optional: adds space around the image */
+    box-sizing: border-box; /* Includes padding in the element's total width/height */
+  }
+  
+  
+  .card .text {
+    padding: 20px 15px;
+    text-align: center;
+  }
+  
+  .card h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #666;
+  }
+  
