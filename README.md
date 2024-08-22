@@ -1,6 +1,7 @@
 # Frontend Mentor | QR Code Component
 
 This is a QR code component built as part of a project from Frontend Mentor. It is designed to showcase a QR code and some accompanying text in a responsive card layout.
+![qrcode](https://github.com/user-attachments/assets/6c35e517-ce2b-465a-af36-f3d7650874ca)
 
 ## Project Description
 
